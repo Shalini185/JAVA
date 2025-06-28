@@ -1,0 +1,18 @@
+package placment;
+
+public class cound {
+	public static void main(String[] args) {
+		int[] arr= {10,20,30,40,60,1};
+		int EvenCount=0,OddCount=0,i;
+		for(i=0;i<arr.length;i++) {
+			if(arr[i]%2==0) {
+				EvenCount++;
+			}
+			else {
+				OddCount++;
+			}
+		}
+			System.out.println("Enter the even number : " + EvenCount);
+			System.out.println("Enter the odd number : " + OddCount);
+		}
+}
