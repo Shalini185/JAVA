@@ -1,0 +1,13 @@
+package placment;
+
+public class bitwise {
+    public static void main(String[] args) {
+    	int a=20, b=8;
+    	System.out.println(a&b); //bitwise AND
+    	System.out.println(a|b); //bitwise OR
+    	System.out.println(a^b); //bitwise ex-or
+    	System.out.println(~a); //bitwise NOT
+    	System.out.println(a<<2);
+    	System.out.println(a>>2);
+    }
+}
