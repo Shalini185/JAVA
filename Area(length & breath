@@ -1,0 +1,12 @@
+package placment;
+import java.util.Scanner;
+public class area {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int len=sc.nextInt();
+		int br=sc.nextInt();
+		System.out.println("Area of the Rectangle : " + (len*br));
+		System.out.println("Parameter of the Rectanle : " + 2*(len+br));
+	}
+
+}
